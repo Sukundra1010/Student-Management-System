@@ -1,0 +1,50 @@
+/*
+  Design tokens for the Tkinter interface.
+  Tkinter does not read CSS; dashboard.py maps these values to ttk widgets.
+*/
+:root {
+  --navy: #12233f;
+  --navy-deep: #0b172b;
+  --blue: #3264f5;
+  --blue-soft: #e9efff;
+  --background: #f4f6f7;
+  --surface: #ffffff;
+  --text: #18263d;
+  --muted: #78869b;
+  --border: #e4eaf2;
+  --success: #12a88a;
+  --danger: #d84b5b;
+  --banner: #e51f2b;
+  --sidebar: #edf7ef;
+  --sidebar-active: #c9efd2;
+  --orange: #ff9800;
+  --green: #42ad58;
+  --red: #df3542;
+  --amber: #e2a53a;
+  --violet: #8065df;
+  --radius: 12px;
+  --space: 8px;
+  --font: "Segoe UI";
+}
+
+[data-theme="dark"] {
+  --navy: #111d32;
+  --navy-deep: #091321;
+  --blue: #7892ff;
+  --blue-soft: #293958;
+  --background: #111927;
+  --surface: #1b2739;
+  --text: #edf2fc;
+  --muted: #9eacc1;
+  --border: #334157;
+  --success: #40c9aa;
+  --danger: #ff7d8a;
+  --banner: #c92734;
+  --sidebar: #17251f;
+  --sidebar-active: #28543a;
+  --orange: #f0a332;
+  --green: #4cba69;
+  --red: #ed5963;
+  --amber: #edbd65;
+  --violet: #a28af4;
+}
